@@ -8,9 +8,7 @@ const miter = (tall/100)** 2
 const bmi = parseInt(weight/miter)
 
 
+ console.log(bmi)
 if(bmi >= 25){
-    console.log(bmi)
     console.log('Obesity')
-}else{
-    console.log(bmi)
 }
