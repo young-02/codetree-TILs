@@ -5,7 +5,7 @@ const b = Number(input[1])
 
 
 if(a > b) {
-    return
+    console.log(a-b)
 }else{
     console.log(b-a)
 }
