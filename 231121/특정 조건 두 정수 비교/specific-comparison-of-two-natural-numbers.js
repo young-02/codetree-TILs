@@ -7,7 +7,7 @@ const b = Number(input[1])
 let answer1 ;
 let answer2
 
-if( a < b || a ===b){
+if( a < b ){
     answer1 = 1
 }else{
     answer1 = 0
