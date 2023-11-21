@@ -15,6 +15,7 @@ if(a < b){
     min = b
 }
 
+
 if(min < c){
     min
 }else{
@@ -28,7 +29,7 @@ if(a === min){
 }
 
 
-if(a === b=== c){
+if(a === b && b === c && a === c){
     result2 =1
 }else{
    result2 = 0
