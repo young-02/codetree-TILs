@@ -3,14 +3,23 @@ const input = fs.readFileSync(0).toString().split(' ')
 const a = Number(input[0])
 const b = Number(input[1])
 const c = Number(input[2])
-const min1 = b < c ? b : c
-const min2 = b < a ? b : a
-const min = min1 < min2 ? min1:min2
 
+let min ;
 let result1 ;
 let result2
 
 
+if(a < b){
+    min = a
+}else{
+    min = b
+}
+
+if(min < c){
+    min
+}else{
+    min = c
+}
 
 if(a === min){
   result1 = 1
