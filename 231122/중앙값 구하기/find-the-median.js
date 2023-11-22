@@ -4,7 +4,6 @@ const a = Number(input[0])
 const b = Number(input[1])
 const c = Number(input[2])
 
-
 if(a >= b && a >=c){
    if(b >= c){
      console.log(b)
@@ -12,12 +11,13 @@ if(a >= b && a >=c){
     console.log(c)
    }
 }else if( b >= c && b >= a){
-        if(a >= c){
-            console.log(a)
-        }else{
-            console.log(b)
-        }
-}else {
+    
+    if(a >= c){
+        console.log(a)
+    }else{
+        console.log(c)
+    }
+}else{
     if(b >= a ){
         console.log(b)
     }else{
