@@ -33,7 +33,7 @@ const c = input[2].split(' ')
 
 const a_state = a[0] ,a_temp = Number(a[1])
 const b_state = b[0] ,b_temp = Number(b[1])
-const c_state = a[0] ,c_temp = Number(c[1])
+const c_state = c[0] ,c_temp = Number(c[1])
 
 if(a_state === "Y" && a_temp >= 37){
     if((b_state === "Y" && b_temp >= 37) || (c_state === 'Y' && c_temp >= 37 )){
