@@ -42,7 +42,7 @@ if(a_state === "Y" && a_temp >= 37){
         console.log('N')
     }
 }else {
-    if((b_state==='Y' && b_temp > 37) && (c_state === "Y" && c_temp >=37)){
+    if((b_state==='Y' && b_temp >= 37) && (c_state === "Y" && c_temp >=37)){
         console.log('E')
     }else{
         console.log('N')
