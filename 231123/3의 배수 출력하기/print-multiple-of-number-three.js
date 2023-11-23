@@ -4,16 +4,9 @@ const n = Number(input)
 
 let i = 1;
 let result = ''
-// while(i <=n){
-//     i % 3 === 0 ? result += i +" ": ''
-//     i++
-// }
-
-// console.log(result)
-
 while(i <=n){
-    result += i + ' '
-    i *= 3
+    i % 3 === 0 ? result += i +" ": ''
+    i++
 }
 
 console.log(result)
