@@ -8,7 +8,7 @@ if(a > 0){
     for(let i =1; i <= b; i++){
         result += a
     }
-}else if( a === 0){
+}else if( a <= 0){
     result = 0
 }
 
