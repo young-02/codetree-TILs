@@ -14,7 +14,7 @@ for(let i = n; i <= 100; i++){
     }else if( i >= 60){
         result += 'D' + ' '
     }else{
-        result += 'F'
+        result += 'F'+ ' '
     }
 }
 
