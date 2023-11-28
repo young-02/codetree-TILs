@@ -4,7 +4,7 @@ const input = fs.readFileSync(0).toString().split('\n')
 let cnt = 0;
 let cnt2 = 0
 
-for(let i = 0; i<= input.length; i++){
+for(let i = 0; i<= 10; i++){
     if(Number(input[i]) % 3 === 0){
         cnt++
     }
