@@ -11,7 +11,7 @@ for(let i = 0; i<=input.length; i++){
     if(input[i]% 5 === 0){
         cnt2++
     }
-    result= cnt + ' ' + cnt2
 }
 
+    result= cnt + ' ' + cnt2
 console.log(result)
