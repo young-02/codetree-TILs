@@ -5,6 +5,6 @@ const b = Number(input[1])
 
 let prod = 1
 for(let i = 1; i<= b; i++){
-    prod *=2
+    prod *=a
 }
 console.log(prod)
