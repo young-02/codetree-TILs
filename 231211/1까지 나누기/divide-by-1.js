@@ -2,12 +2,11 @@ const fs = require('fs')
 const input = fs.readFileSync(0).toString()
 const n = Number(input)
 
-let i = 1
-let count = 0
+let i = 0
 let result = n
 while(result >= 1){
-    result = parseInt(result/i)
     i++
-    count++
+    result = parseInt(result/i)
+
 }
-console.log(count)
+console.log(i)
