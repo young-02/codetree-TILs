@@ -6,7 +6,7 @@ while(true){
     let n = Number(input[idx])
     idx++
     if(n === 1){
-        console.log('Jone')
+        console.log('John')
     }else if (n === 2){
         console.log('Tom')
     }else if(n === 3){
@@ -17,4 +17,5 @@ while(true){
         console.log('Vacancy')
         break
     }
+    
 }
