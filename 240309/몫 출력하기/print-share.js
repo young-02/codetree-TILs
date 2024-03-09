@@ -6,12 +6,13 @@ let idx = 0;
 while(true){
     let n = Number(input[idx])
     idx++
-    if(n % 2 === 0){
-        console.log(n/2)
-        if( idx >3){
-            break
-        }
+    if(idx > 4){
+      break
     }else{
-        continue;
+        if(n % 2 === 0){
+            console.log(n/2)
+        }else{
+            continue;
+        }
     }
 }
