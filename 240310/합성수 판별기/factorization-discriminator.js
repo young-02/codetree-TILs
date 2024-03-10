@@ -7,7 +7,8 @@ let idx = 1;
 while(n >= idx){
     if(n %  idx === 0){
          idx++
-         if( idx >=3){
+        //  console.log(idx)
+         if( idx >=2){
             console.log('C')
             break
          }
